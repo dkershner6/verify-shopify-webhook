@@ -1,6 +1,6 @@
 {
-  "name": "npm-typescript-package-template",
-  "version": "0.0.0",
+  "name": "shopify-verify-webhook",
+  "version": "1.0.0",
   "description": "A template for easy creation of new NPM packages",
   "main": "dist/index.js",
   "source": "src/index.ts",
@@ -48,5 +48,7 @@
   "files": [
     "dist/*"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "raw-body": "^2.4.1"
+  }
 }
