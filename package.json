@@ -1,6 +1,6 @@
 {
   "name": "shopify-verify-webhook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template for easy creation of new NPM packages",
   "main": "dist/index.js",
   "source": "src/index.ts",
@@ -8,7 +8,7 @@
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && microbundle --globals crypto=crypto,buffer=buffer --external crypto,buffer,string_decoder",
+    "build": "rimraf dist && tsc",
     "format-check": "prettier --check .",
     "format": "prettier --write .",
     "test": "jest --coverage --passWithNoTests",

@@ -31,7 +31,7 @@ const verifyWebhook = async (
         .createHmac('sha256', shopifySecret)
         .update(rawBody)
         .digest('base64');
-
+    console.log(hash);
     return {
         verified: hash === hmac,
         topic,
