@@ -8,7 +8,7 @@
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && microbundle",
+    "build": "rimraf dist && microbundle --globals crypto=crypto,buffer=buffer --external crypto,buffer,string_decoder",
     "format-check": "prettier --check .",
     "format": "prettier --write .",
     "test": "jest --coverage --passWithNoTests",
@@ -20,7 +20,12 @@
     "type": "git",
     "url": "git+https://github.com/dkershner6/npm-typescript-package-template.git"
   },
-  "keywords": [],
+  "keywords": [
+    "shopify",
+    "hmac",
+    "verify",
+    "webhook"
+  ],
   "author": "Derek Kershner",
   "license": "MIT",
   "bugs": {
