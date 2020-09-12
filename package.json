@@ -1,11 +1,8 @@
 {
   "name": "shopify-verify-webhook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A template for easy creation of new NPM packages",
   "main": "dist/index.js",
-  "source": "src/index.ts",
-  "module": "dist/index.mjs",
-  "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
@@ -20,12 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/dkershner6/npm-typescript-package-template.git"
   },
-  "keywords": [
-    "shopify",
-    "hmac",
-    "verify",
-    "webhook"
-  ],
+  "keywords": [],
   "author": "Derek Kershner",
   "license": "MIT",
   "bugs": {
