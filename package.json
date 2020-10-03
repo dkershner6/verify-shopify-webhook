@@ -1,7 +1,7 @@
 {
-  "name": "shopify-verify-webhook",
-  "version": "1.0.4",
-  "description": "A template for easy creation of new NPM packages",
+  "name": "verify-shopify-webhook",
+  "version": "1.0.5",
+  "description": "Verify the authenticity of an incoming Shopify webhook quickly and easily. Requires a raw body (shopify requirement), but parses to JSON for you.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

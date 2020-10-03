@@ -1,16 +1,17 @@
-# shopify-verify-webhook
+# verify-shopify-webhook
 
 Verify shopify webhook using any API solution, make your own middleware easily.
+Requires a raw body (shopify requirement), but parses to JSON for you.
 Only dependency is on `raw-body`, this is a very tiny library.
 
 ## Installation
 
-`npm i shopify-verify-webhook`
+`npm i verify-shopify-webhook`
 
 ## Usage
 
 ```typescript
-import verifyWebhook from 'shopify-verify-webhook';
+import verifyWebhook from 'verify-shopify-webhook';
 
 const middleware = async (req, res, next) => {
     const shopifySecret = process.env.SHOPIFY_SECRET;
